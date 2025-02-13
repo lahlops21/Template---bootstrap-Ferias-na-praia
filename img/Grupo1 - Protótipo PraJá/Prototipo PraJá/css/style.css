@@ -1,0 +1,113 @@
+.imgpraja {
+    width: 15%;
+}
+
+.nav-item{
+    padding: 20px;
+}
+
+.nav-link {
+    color: #302D40;
+}
+
+.nav-link:hover {
+    color: #2BD9A8;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    color: #2BD9A8;
+    padding-bottom: 15px;
+}
+
+.icones {
+    padding-right: 15px;
+}
+
+.icones_tamanho{
+    width: 52px;
+}
+
+.textinho {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-primary {
+    background-color: #2BD9A8; 
+    border-color: #2BD9A8;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #302D40;
+    border-color: #302D40;
+}
+
+.meu-btn3{
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.25rem;
+    --bs-btn-font-weight: bold;
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+    --bs-btn-color:#2BD9A8;
+    --bs-btn-border-color: #2BD9A8;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-hover-color: #000;
+    --bs-btn-margin-y: 5rem;
+}
+
+.container_final {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h2 {
+    font-size: 25px;
+    color: #2BD9A8;
+}
+
+.senac {
+    margin-top: 2%;
+}
+
+.progress {
+    margin-top: 4%;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+
+.btn-secondary {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+footer {
+    background-color: #2BD9A8;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/* html da lista */
+
+.pesquisa {
+    justify-self: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.caixinha {
+    justify-self: center;
+    flex-direction: column;
+    display: flex;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre os mercados próximos</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+      <header>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/mockup01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/ponto.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/delivery.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <img class="imgpraja" src="imagens/prajá_horizontal2.png"/>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="geo.html">Mercados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lista.html">Listas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Endereços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Suporte</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">CEP</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Insira seu cep e tentaremos identificar as informações da sua residencia!</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Estado</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              <div id="emailHelp" class="form-text">Informe aqui seu estado.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Cidade</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Informe aqui a sua cidade.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Bairro</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Informe aqui o seu bairro.</div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Concordo em compartilhar meus dados.</label>
+                <button type="submit" class="btn btn-primary">Prosseguir</button>
+              </div>
+          </form>
+          <footer>
+            <h1>copyright@grupo1</h1>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

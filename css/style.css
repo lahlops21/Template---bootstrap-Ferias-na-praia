@@ -1,0 +1,172 @@
+.bg {
+  background-color: #51ddc6;
+}
+
+.praia-img {
+  background-image: url("../img/bck-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 464px;
+}
+
+.row .col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tamanho {
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.fundo_branco {
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.cor_branca {
+  background-color: white;
+}
+
+.meu_menu a {
+  text-transform: uppercase;
+  color: #0c7a68;
+}
+
+.navbar-nav li {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.fundo_cinza {
+  background-color: #f7f7f7;
+}
+
+.pai_do_titulo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-weight: bold;
+  color: #015c39;
+}
+.pai_do_titulo img {
+  margin-right: 30px;
+}
+.card {
+  padding: 0px;
+}
+
+.btn-meu {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #cc00bb;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #059992;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+}
+
+.card {
+  --bs-card-title-color: ;
+  --bs-card-subtitle-color: ;
+
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-box-shadow: ;
+
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: white;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border-radius: var(--bs-card-border-radius);
+  border: none;
+  padding: 0px;
+}
+
+.btn-outline-meu {
+  --bs-btn-color: #00366d;
+  --bs-btn-border-color: #00366d;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #f8f9fa;
+  --bs-btn-hover-border-color: #f8f9fa;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f8f9fa;
+  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-gradient: none;
+  border: 3px solid;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.dormir {
+  background-color: white;
+}
+
+h4 {
+  color: #00366d;
+}
+
+.pai_da_barra {
+  margin: 0px;
+  padding: 10px 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.barra {
+  width: 1300px;
+}
+
+.rodape {
+  background-image: url("../img/bck-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
